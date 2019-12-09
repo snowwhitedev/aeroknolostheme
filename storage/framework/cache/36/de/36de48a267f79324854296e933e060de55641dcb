@@ -1,0 +1,56 @@
+1575871938a:1:{s:18:"home/slideshow.htm";a:5:{s:8:"fileName";s:18:"home/slideshow.htm";s:7:"content";s:1195:"<!--[viewBag] == -->
+{% if slideshow and slideshow['slides'] %}
+<div id="{{id}}" class="carousel slide" data-ride="carousel" data-interval="5000">
+  <div class="carousel-inner" role="listbox">
+    {% for i, slide in slideshow['slides'] %} {% if slide.image.path %}
+    <div class="carousel-item{% if loop.first %} active{% endif %}">
+     
+      <div class="carousel-image-background" style="background-image: url('{{ slide.image.path }}');"
+        alt="{{ slide.image.title }}"></div>
+      {% if slide.title or slide.description or slide.link %}
+      <div class="carousel-caption clearfix white-caption">
+        {% if slide.title %}
+          <h2 class="carousel-caption-title"><strong>{{ slide.title }}</strong></h2>
+        {% endif %} {% if slide.description %}
+        <span class="slider-caption"><p>{{ slide.description|raw }}</p></span><br/><br/>
+        {% endif %} {% if slide.link %}<a
+          class="btn btn-default btn-custom-main btn-slider"
+          href="{{ slide.link }}"
+          target="_blank"
+          >Learn more</a
+        >{% endif %}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+</div>
+{% endif %}
+";s:5:"mtime";i:1575817503;s:6:"markup";s:1193:"<!--[viewBag] == -->
+{% if slideshow and slideshow['slides'] %}
+<div id="{{id}}" class="carousel slide" data-ride="carousel" data-interval="5000">
+  <div class="carousel-inner" role="listbox">
+    {% for i, slide in slideshow['slides'] %} {% if slide.image.path %}
+    <div class="carousel-item{% if loop.first %} active{% endif %}">
+     
+      <div class="carousel-image-background" style="background-image: url('{{ slide.image.path }}');"
+        alt="{{ slide.image.title }}"></div>
+      {% if slide.title or slide.description or slide.link %}
+      <div class="carousel-caption clearfix white-caption">
+        {% if slide.title %}
+          <h2 class="carousel-caption-title"><strong>{{ slide.title }}</strong></h2>
+        {% endif %} {% if slide.description %}
+        <span class="slider-caption"><p>{{ slide.description|raw }}</p></span><br/><br/>
+        {% endif %} {% if slide.link %}<a
+          class="btn btn-default btn-custom-main btn-slider"
+          href="{{ slide.link }}"
+          target="_blank"
+          >Learn more</a
+        >{% endif %}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+</div>
+{% endif %}";s:4:"code";N;}}

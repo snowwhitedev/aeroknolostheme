@@ -1,0 +1,7 @@
+id,match_type,target_type,from_scheme,from_url,to_scheme,to_url,cms_page,static_page,status_code,requirements,from_date,to_date,ignore_query_parameters
+1,exact,static_page,auto,/,auto,,,index,301,,,,
+2,exact,static_page,auto,/home,auto,,,index,301,,,,
+3,exact,static_page,auto,/ho,auto,,,index,301,,,,
+4,exact,cms_page,auto,/,auto,,home,,301,,,,
+5,exact,cms_page,auto,/home,auto,,home,,301,,,,
+6,exact,cms_page,auto,/,auto,,home,,301,,,,
