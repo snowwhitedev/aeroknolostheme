@@ -1,0 +1,530 @@
+1576015377a:1:{s:20:"guidehowwecharge.htm";a:9:{s:8:"fileName";s:20:"guidehowwecharge.htm";s:7:"content";s:12884:"title = "GuideHowWeCharge"
+url = "/cum-incarcam"
+layout = "cms-layout"
+is_hidden = 0
+==
+<!-- Section About Start -->
+<section class="section about-2 position-relative">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div class="about-item-img">
+					<img src="{{'/storage/app/media/howwe1.jpg'}}" alt="" class="img-fluid fr-fic fr-dii">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 d-flex align-items-center">
+				<div class="about-item pr-3 mb-5 mb-lg-0">
+					<h4 class="mt-3 mb-4 position-relative text-center text-color">Let's see what are the criteria that need to be considered</h4>
+					<ul>
+						<li type="1">What we have under the hood - or, in other words, the known standards of connection of the used electric vehicle and the accepted power;</li>
+						<li type="1">How much energy we already have in the battery;</li>
+						<li type="1">Where do we load;</li>
+						<li type="1">Which connection standard do we choose to use;</li>
+						<li type="1">We want to extend the battery life.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section About End -->
+<!-- Section Glossary of terms Start -->
+<section class="glossary">
+	<div class="container">
+		<div class="accordion" id="accordionExample">
+		    <div class="card-header" id="headingTwo">
+		      <h2 class="mb-0">
+		        <a class=" btn-link text-color" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		         	Glossary of terms
+		        </a>
+		      </h2>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+		      <div class="card-body">
+		      	AC (AC) is an electrical current that periodically reverses the direction, as opposed to DC (DC) which flows only in one direction (a full explanation of the AC and DC current found <a href="https://www.youtube.com/watch?v=q-DKc4KHPqU">here</a>).
+		      	<ul>
+		      		<li>
+		      			<strong>AC (AC)</strong> is the form in which electricity is delivered to businesses and homes and is the form of electricity we find when we connect kitchen appliances, televisions, fans and electric lamps to a wall outlet.
+		      		</li>
+		      		<li>
+		      			A common <strong>DC</strong> source is a battery cell in an electric vehicle.
+		      		</li>
+		      		<li>
+		      			<strong>The power output</strong> (AC and DC) is measured in <strong>kW</strong> - Kilowatt.
+		      		</li>
+		      		<li>
+		      			<strong>Battery capacity</strong> is measured in <strong>kWh</strong> - Kilowatt / hour. For marketing reasons, some manufacturers prefer to display battery capacity in <strong>Ah</strong> - amps / hour, the number appearing higher compared to Kilowatt / hour.
+		      		</li>
+		      		<li>
+		      			<strong>Battery charge level (SOC - State of Charge)</strong> - represents how much current we have in the battery at the moment - for ease of calculation we will use as a percentage.
+		      		</li>
+		      		<li>
+		      			<strong>The on-board charger (OBC)</strong> is intended to limit the charging power (according to battery parameters) and when receiving from the charging station or AC outlet (AC) to convert the current from AC to DC.
+		      		</li>
+		      		<li>
+		      			<strong>The electric vehicle charging station (EVSE)</strong> ensures the supply of current (AC and / or DC) to the machine according to the parameters of the station, the machine and the connection.
+		      		</li>
+		      		<li>
+		      			<strong>The standards of connection</strong> of the charging station to the electric vehicle popular in Europe are: <strong>Type 2, CSS and CHAdeMO.</strong>
+		      			<ul>
+		      				<li>
+		      					<strong>Type 2</strong> - European standard that supplies AC (AC) with a power from 2.3 to 22 kW.
+		      				</li>
+		      				<li>
+		      					<strong>CCS (Combined Charging System )</strong> - international standard that supplies both AC (DC) and DC (DC) at the same time, with a power of 55-350 kW. The vehicle that has a CCS connector allows connection to a charging station with both CSS and Type2 sockets.
+		      				</li>
+		      				<li>
+		      					<strong>CHAdeMO</strong> - Japanese standard (used primarily by Nissan and Mitsubishi) that supplies DC (DC) with a power of 40-102 kW.
+		      				</li>
+		      			</ul>
+		      		</li>
+		      	</ul>
+		      </div>
+		    </div>
+		  
+		  
+		</div>
+</div>
+</section>
+
+<!-- Section Description Start -->
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="container">
+				<div class="desc_item">
+					<h4 class="mt-3 mb-2 position-relative text-color">1. What we have under the hood</h4>
+					<p>
+						The maximum power accepted by the vehicle is given by the manufacturer in the car book. It is a physical limitation to protect the battery. The old-fashioned on-board charger (OBC) will communicate with the charging station (EVSE) what maximum power it accepts (kW).
+					</p>
+					<p>
+						The battery capacity (kWh) and the cooling mode of the battery also contribute to the calculation of the maximum accepted power. The battery can be cooled actively (with liquid or air) or passive .
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-2 col-12">
+				<div class="about-item-img">
+					<img src="{{'/storage/app/media/battery.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-10 col-12">
+				<h4 class="mb-2 position-relative text-color">2. How much energy we already have in the battery</h4>
+				<p>
+					The less energy we have in the battery (SOC), the faster it will charge.
+				</p>
+				<p>
+					The loading time from 0% to 80% is equal to the period from 80% to 100%. This would be another reason why we did not encourage to charge at home, work or public stations up to 100%.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="container">
+						<h4 class="mt-3 mb-2 position-relative text-color">3. Where do we load</h4>
+						<p>
+							For ease we will group the loading places according to the power and availability of the station.
+						</p>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-lg-7 col-md-7 col-sm-8 col-12 mt-3">
+						<h6 class="how-sub-title mb-2">Home Outlet (AC)</h6>
+						<p>It is the most convenient place to charge your vehicle. It only takes 30 seconds to charge the car - it takes so long to connect the external charger of the car to the outlet. The following table is an example of different socket configurations depending on the power available in the location and the number of phases.</p>
+						<p>
+							The outlet is accessible to everyone when you are at home, at the mountain, at sea, at work, at the hotel, shopping or anywhere else.
+						</p>
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-4 col-12 mt-3">
+						<div class="about-item-img">
+							<img src="{{'/storage/app/media/ConectoriACv.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-lg-2 col-md-3 col-sm-3 col-5" style="margin: 0 auto;">
+						<div class="about-item-img">
+							<img src="{{'/storage/app/media/Aero-Schneider-Electric-EVlink-EV230WS-electric-car-charging-station-EVSE-2.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+						</div>
+					</div>
+					<div class="col-lg-10 col-md-9 col-sm-9 col-12 d-flex align-items-center">
+						<div>
+							<h6 class="how-sub-title mb-2">Home Outlet (AC)</h6>
+							<p>It is the most convenient place to charge your vehicle. It only takes 30 seconds to charge the car - it takes so long to connect the external charger of the car to the outlet. The following table is an example of different socket configurations depending on the power available in the location and the number of phases.</p>
+							<p>
+								The outlet is accessible to everyone when you are at home, at the mountain, at sea, at work, at the hotel, shopping or anywhere else.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-lg-10 col-md-9 col-sm-9 col-12 d-flex align-items-center">
+						<div>
+							<h6 class="how-sub-title mb-2">Public Station (AC and DC)</h6>
+							<p>It is the most optimized variant for fast loading. Like the wall station, it is set to installation with the available power and it is responsible for delivering the energy to your vehicle. Depending on the connector used, the maximum power that the station can deliver also varies. Now it remains for your car to accept the maximum power the station can deliver.</p>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-3 col-5" style="margin: 0 auto;">
+						<div class="about-item-img">
+							<img src="{{'/storage/app/media/AERO-FastCharge.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-md-9 col-12" style="padding-right: 50px;">
+				<h4 class="mb-2 position-relative text-color">4. Which connection standard do we choose to use at public stations</h4>
+				<p>
+					There are public stations that support the simultaneous loading of several cars at the same time. This means that our decision as to which connection standard we will use will affect the following machines that will be loaded at the respective station.
+				</p>
+				<p>
+					When choosing to upload to public stations with multiple connection standards, we should choose the connection standard based on several factors:
+				</p>
+				<ul>
+					<li>
+						how much can the car max load?
+					</li>
+					<li>
+						how much are we in the area (are we at work / shopping / are we just loading)?
+					</li>
+					<li>
+						how much energy / autonomy do we need until the final destination?
+					</li>
+					<li>
+						can we load to the final destination?
+					</li>
+				</ul>
+				<p>
+					You can see in the table below how some cars from the same manufacturer can load several kilometers in the same time period, on the same connection standard. The recommendation should be to charge as much as we need to get to home or work where a power outlet is waiting for us.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-3 col-8" style="margin: 0 auto;">
+				<p class="text-center">Which one to use?</p>
+				<div class="about-item-img">
+					<img src="{{'/storage/app/media/EUROConectori.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+<!-- Section Description End -->
+<!-- Section table start -->
+<section class="google-table">
+	<div class="container">
+		<div class="table-container">
+			<iframe src="https://docs.google.com/spreadsheets/d/1aK9mFVFhXA8hL7An011LEIh41GbEnRKULBsYqHCTlz8/htmlembed" style="width: 100%; height: 100%"></iframe>
+		</div>
+	</div>
+</section>
+<!-- Section table End -->
+<!-- Section Description Start -->
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="container">
+				<div class="desc_item">
+					<h4 class="mt-3 mb-2 position-relative text-color">5. Do we want to extend the battery life?</h4>
+					<p>
+						The most powerful factors that accelerate battery degradation are:
+					</p>
+					<ul>
+						<li>Up to 100% charge. A battery has a limited number of full charge / discharge cycles (just like any phone).
+						</li>
+						<li>
+							A battery degrades faster as it gets hotter.<strong>It heats most at high loading speeds and in the range of 80% -100%.</strong>
+						</li>
+						<li>
+							If the battery remains fully charged for a period of time longer than 1 hour.
+						</li>
+					</ul>
+					<p>
+						<strong>tips</strong>:
+					</p>
+					<ul>
+						<li>
+							Set the machine to charge up to 80% of battery capacity, if you do not need maximum vehicle autonomy. 
+						</li>
+						<li>
+							A battery charged at 80% of capacity will be able to use regenerative braking, also charging the battery.
+						</li>
+						<li>
+							Electric vehicle manufacturers recommend charging up to 100% when we go on the road and we know that we need full autonomy to reach the destination.
+						</li>
+						<li>
+							If the charging time period allows us, in order to protect our battery, we always choose to charge AC (wall outlet or wall outlet) thus limiting the battery heating. The machine allows us to set the maximum power it can accept.
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+";s:5:"mtime";i:1576009548;s:6:"markup";s:12787:"<!-- Section About Start -->
+<section class="section about-2 position-relative">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div class="about-item-img">
+					<img src="{{'/storage/app/media/howwe1.jpg'}}" alt="" class="img-fluid fr-fic fr-dii">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 d-flex align-items-center">
+				<div class="about-item pr-3 mb-5 mb-lg-0">
+					<h4 class="mt-3 mb-4 position-relative text-center text-color">Let's see what are the criteria that need to be considered</h4>
+					<ul>
+						<li type="1">What we have under the hood - or, in other words, the known standards of connection of the used electric vehicle and the accepted power;</li>
+						<li type="1">How much energy we already have in the battery;</li>
+						<li type="1">Where do we load;</li>
+						<li type="1">Which connection standard do we choose to use;</li>
+						<li type="1">We want to extend the battery life.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section About End -->
+<!-- Section Glossary of terms Start -->
+<section class="glossary">
+	<div class="container">
+		<div class="accordion" id="accordionExample">
+		    <div class="card-header" id="headingTwo">
+		      <h2 class="mb-0">
+		        <a class=" btn-link text-color" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		         	Glossary of terms
+		        </a>
+		      </h2>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+		      <div class="card-body">
+		      	AC (AC) is an electrical current that periodically reverses the direction, as opposed to DC (DC) which flows only in one direction (a full explanation of the AC and DC current found <a href="https://www.youtube.com/watch?v=q-DKc4KHPqU">here</a>).
+		      	<ul>
+		      		<li>
+		      			<strong>AC (AC)</strong> is the form in which electricity is delivered to businesses and homes and is the form of electricity we find when we connect kitchen appliances, televisions, fans and electric lamps to a wall outlet.
+		      		</li>
+		      		<li>
+		      			A common <strong>DC</strong> source is a battery cell in an electric vehicle.
+		      		</li>
+		      		<li>
+		      			<strong>The power output</strong> (AC and DC) is measured in <strong>kW</strong> - Kilowatt.
+		      		</li>
+		      		<li>
+		      			<strong>Battery capacity</strong> is measured in <strong>kWh</strong> - Kilowatt / hour. For marketing reasons, some manufacturers prefer to display battery capacity in <strong>Ah</strong> - amps / hour, the number appearing higher compared to Kilowatt / hour.
+		      		</li>
+		      		<li>
+		      			<strong>Battery charge level (SOC - State of Charge)</strong> - represents how much current we have in the battery at the moment - for ease of calculation we will use as a percentage.
+		      		</li>
+		      		<li>
+		      			<strong>The on-board charger (OBC)</strong> is intended to limit the charging power (according to battery parameters) and when receiving from the charging station or AC outlet (AC) to convert the current from AC to DC.
+		      		</li>
+		      		<li>
+		      			<strong>The electric vehicle charging station (EVSE)</strong> ensures the supply of current (AC and / or DC) to the machine according to the parameters of the station, the machine and the connection.
+		      		</li>
+		      		<li>
+		      			<strong>The standards of connection</strong> of the charging station to the electric vehicle popular in Europe are: <strong>Type 2, CSS and CHAdeMO.</strong>
+		      			<ul>
+		      				<li>
+		      					<strong>Type 2</strong> - European standard that supplies AC (AC) with a power from 2.3 to 22 kW.
+		      				</li>
+		      				<li>
+		      					<strong>CCS (Combined Charging System )</strong> - international standard that supplies both AC (DC) and DC (DC) at the same time, with a power of 55-350 kW. The vehicle that has a CCS connector allows connection to a charging station with both CSS and Type2 sockets.
+		      				</li>
+		      				<li>
+		      					<strong>CHAdeMO</strong> - Japanese standard (used primarily by Nissan and Mitsubishi) that supplies DC (DC) with a power of 40-102 kW.
+		      				</li>
+		      			</ul>
+		      		</li>
+		      	</ul>
+		      </div>
+		    </div>
+		  
+		  
+		</div>
+</div>
+</section>
+
+<!-- Section Description Start -->
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="container">
+				<div class="desc_item">
+					<h4 class="mt-3 mb-2 position-relative text-color">1. What we have under the hood</h4>
+					<p>
+						The maximum power accepted by the vehicle is given by the manufacturer in the car book. It is a physical limitation to protect the battery. The old-fashioned on-board charger (OBC) will communicate with the charging station (EVSE) what maximum power it accepts (kW).
+					</p>
+					<p>
+						The battery capacity (kWh) and the cooling mode of the battery also contribute to the calculation of the maximum accepted power. The battery can be cooled actively (with liquid or air) or passive .
+					</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-2 col-12">
+				<div class="about-item-img">
+					<img src="{{'/storage/app/media/battery.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-10 col-12">
+				<h4 class="mb-2 position-relative text-color">2. How much energy we already have in the battery</h4>
+				<p>
+					The less energy we have in the battery (SOC), the faster it will charge.
+				</p>
+				<p>
+					The loading time from 0% to 80% is equal to the period from 80% to 100%. This would be another reason why we did not encourage to charge at home, work or public stations up to 100%.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="container">
+						<h4 class="mt-3 mb-2 position-relative text-color">3. Where do we load</h4>
+						<p>
+							For ease we will group the loading places according to the power and availability of the station.
+						</p>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-lg-7 col-md-7 col-sm-8 col-12 mt-3">
+						<h6 class="how-sub-title mb-2">Home Outlet (AC)</h6>
+						<p>It is the most convenient place to charge your vehicle. It only takes 30 seconds to charge the car - it takes so long to connect the external charger of the car to the outlet. The following table is an example of different socket configurations depending on the power available in the location and the number of phases.</p>
+						<p>
+							The outlet is accessible to everyone when you are at home, at the mountain, at sea, at work, at the hotel, shopping or anywhere else.
+						</p>
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-4 col-12 mt-3">
+						<div class="about-item-img">
+							<img src="{{'/storage/app/media/ConectoriACv.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-lg-2 col-md-3 col-sm-3 col-5" style="margin: 0 auto;">
+						<div class="about-item-img">
+							<img src="{{'/storage/app/media/Aero-Schneider-Electric-EVlink-EV230WS-electric-car-charging-station-EVSE-2.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+						</div>
+					</div>
+					<div class="col-lg-10 col-md-9 col-sm-9 col-12 d-flex align-items-center">
+						<div>
+							<h6 class="how-sub-title mb-2">Home Outlet (AC)</h6>
+							<p>It is the most convenient place to charge your vehicle. It only takes 30 seconds to charge the car - it takes so long to connect the external charger of the car to the outlet. The following table is an example of different socket configurations depending on the power available in the location and the number of phases.</p>
+							<p>
+								The outlet is accessible to everyone when you are at home, at the mountain, at sea, at work, at the hotel, shopping or anywhere else.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-lg-10 col-md-9 col-sm-9 col-12 d-flex align-items-center">
+						<div>
+							<h6 class="how-sub-title mb-2">Public Station (AC and DC)</h6>
+							<p>It is the most optimized variant for fast loading. Like the wall station, it is set to installation with the available power and it is responsible for delivering the energy to your vehicle. Depending on the connector used, the maximum power that the station can deliver also varies. Now it remains for your car to accept the maximum power the station can deliver.</p>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-3 col-5" style="margin: 0 auto;">
+						<div class="about-item-img">
+							<img src="{{'/storage/app/media/AERO-FastCharge.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-md-9 col-12" style="padding-right: 50px;">
+				<h4 class="mb-2 position-relative text-color">4. Which connection standard do we choose to use at public stations</h4>
+				<p>
+					There are public stations that support the simultaneous loading of several cars at the same time. This means that our decision as to which connection standard we will use will affect the following machines that will be loaded at the respective station.
+				</p>
+				<p>
+					When choosing to upload to public stations with multiple connection standards, we should choose the connection standard based on several factors:
+				</p>
+				<ul>
+					<li>
+						how much can the car max load?
+					</li>
+					<li>
+						how much are we in the area (are we at work / shopping / are we just loading)?
+					</li>
+					<li>
+						how much energy / autonomy do we need until the final destination?
+					</li>
+					<li>
+						can we load to the final destination?
+					</li>
+				</ul>
+				<p>
+					You can see in the table below how some cars from the same manufacturer can load several kilometers in the same time period, on the same connection standard. The recommendation should be to charge as much as we need to get to home or work where a power outlet is waiting for us.
+				</p>
+			</div>
+			<div class="col-lg-4 col-md-3 col-8" style="margin: 0 auto;">
+				<p class="text-center">Which one to use?</p>
+				<div class="about-item-img">
+					<img src="{{'/storage/app/media/EUROConectori.png'}}" alt="" class="img-fluid fr-fic fr-dii">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+<!-- Section Description End -->
+<!-- Section table start -->
+<section class="google-table">
+	<div class="container">
+		<div class="table-container">
+			<iframe src="https://docs.google.com/spreadsheets/d/1aK9mFVFhXA8hL7An011LEIh41GbEnRKULBsYqHCTlz8/htmlembed" style="width: 100%; height: 100%"></iframe>
+		</div>
+	</div>
+</section>
+<!-- Section table End -->
+<!-- Section Description Start -->
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="container">
+				<div class="desc_item">
+					<h4 class="mt-3 mb-2 position-relative text-color">5. Do we want to extend the battery life?</h4>
+					<p>
+						The most powerful factors that accelerate battery degradation are:
+					</p>
+					<ul>
+						<li>Up to 100% charge. A battery has a limited number of full charge / discharge cycles (just like any phone).
+						</li>
+						<li>
+							A battery degrades faster as it gets hotter.<strong>It heats most at high loading speeds and in the range of 80% -100%.</strong>
+						</li>
+						<li>
+							If the battery remains fully charged for a period of time longer than 1 hour.
+						</li>
+					</ul>
+					<p>
+						<strong>tips</strong>:
+					</p>
+					<ul>
+						<li>
+							Set the machine to charge up to 80% of battery capacity, if you do not need maximum vehicle autonomy. 
+						</li>
+						<li>
+							A battery charged at 80% of capacity will be able to use regenerative braking, also charging the battery.
+						</li>
+						<li>
+							Electric vehicle manufacturers recommend charging up to 100% when we go on the road and we know that we need full autonomy to reach the destination.
+						</li>
+						<li>
+							If the charging time period allows us, in order to protect our battery, we always choose to charge AC (wall outlet or wall outlet) thus limiting the battery heating. The machine allows us to set the maximum power it can accept.
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>";s:4:"code";N;s:5:"title";s:16:"GuideHowWeCharge";s:3:"url";s:13:"/cum-incarcam";s:6:"layout";s:10:"cms-layout";s:9:"is_hidden";s:1:"0";}}

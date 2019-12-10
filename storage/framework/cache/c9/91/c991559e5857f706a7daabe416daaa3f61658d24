@@ -1,0 +1,142 @@
+1576015376a:1:{s:15:"site/footer.htm";a:8:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:2409:";;
+description = "Footer with TopBar and Navigation"
+[viewBag]
+
+[staticMenu main]
+code = "main"
+==
+{##} {# Footer Start #}
+<footer class="footer section">
+	<div class="row bg-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center">
+					<div class="widget">
+
+						<h4 class="text-capitalize mb-4 text-white">Company</h4>
+
+						<ul class="list-unstyled footer-menu lh-35">
+							<li><a href="#" class="text-white">Terms &amp; Conditions</a></li>
+							<li><a href="#" class="text-white">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center">
+					<div class="widget">
+
+						<h4 class="text-capitalize mb-4 text-white">Quick Links</h4>
+
+						<ul class="list-unstyled footer-menu lh-35">
+							<li>{% for item in main.menuItems %}</li>
+							<li><a href="{{ item.url }}" class="text-white">{{ item.title }}</a></li>
+							<li>{% endfor %}</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-12 text-center">
+					<div class="widget">
+						<div class="logo mb-4">
+							<h3 class="text-white">Aero<span class="text-white">Knolos.</span></h3>
+						</div>
+
+						<h6><a href="tel:+23-345-67890" class="text-white">+40 762 333 131</a></h6>
+						<h4><a href="mailto:contact@aero.org.ro" class="text-white">contact@aero.org.ro</a></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-btm pt-4">
+		<div class="container">
+			<div class="row" style="align-items: center;">
+			
+				<div class="col-lg-6 col-md-6 col-sm-6 col-6">
+					<div class="copyright">© {{ "now"|date("Y") }}-<span class="text-color">Aero.Knolos</span></div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-6 text-left text-lg-right">
+					<ul class="list-inline footer-socials">
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com"><i class="ti-facebook mr-2 color-one"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://twitter.com"><i class="ti-twitter mr-2 color-one"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.pinterest.com"><i class="ti-linkedin mr-2 color-one"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<p>{# Footer Close #}</p>";s:5:"mtime";i:1575990055;s:6:"markup";s:2303:"{##} {# Footer Start #}
+<footer class="footer section">
+	<div class="row bg-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center">
+					<div class="widget">
+
+						<h4 class="text-capitalize mb-4 text-white">Company</h4>
+
+						<ul class="list-unstyled footer-menu lh-35">
+							<li><a href="#" class="text-white">Terms &amp; Conditions</a></li>
+							<li><a href="#" class="text-white">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center">
+					<div class="widget">
+
+						<h4 class="text-capitalize mb-4 text-white">Quick Links</h4>
+
+						<ul class="list-unstyled footer-menu lh-35">
+							<li>{% for item in main.menuItems %}</li>
+							<li><a href="{{ item.url }}" class="text-white">{{ item.title }}</a></li>
+							<li>{% endfor %}</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4 col-12 text-center">
+					<div class="widget">
+						<div class="logo mb-4">
+							<h3 class="text-white">Aero<span class="text-white">Knolos.</span></h3>
+						</div>
+
+						<h6><a href="tel:+23-345-67890" class="text-white">+40 762 333 131</a></h6>
+						<h4><a href="mailto:contact@aero.org.ro" class="text-white">contact@aero.org.ro</a></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-btm pt-4">
+		<div class="container">
+			<div class="row" style="align-items: center;">
+			
+				<div class="col-lg-6 col-md-6 col-sm-6 col-6">
+					<div class="copyright">© {{ "now"|date("Y") }}-<span class="text-color">Aero.Knolos</span></div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-6 text-left text-lg-right">
+					<ul class="list-inline footer-socials">
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com"><i class="ti-facebook mr-2 color-one"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://twitter.com"><i class="ti-twitter mr-2 color-one"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.pinterest.com"><i class="ti-linkedin mr-2 color-one"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<p>{# Footer Close #}</p>";s:4:"code";N;s:11:"description";s:33:"Footer with TopBar and Navigation";s:7:"viewBag";a:0:{}s:15:"staticMenu main";a:1:{s:4:"code";s:4:"main";}}}

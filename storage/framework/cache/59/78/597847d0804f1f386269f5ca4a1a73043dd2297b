@@ -1,0 +1,13 @@
+1576015376a:1:{s:15:"home/banner.htm";a:7:{s:8:"fileName";s:15:"home/banner.htm";s:7:"content";s:191:"description = "Banner Partial"
+
+[viewBag]
+snippetCode = "homebanner"
+snippetName = "homebanner"
+==
+{##} {# Slider Start #}
+<section class="banner">
+</section>
+<p>{# Slider End #}</p>";s:5:"mtime";i:1576013524;s:6:"markup";s:86:"{##} {# Slider Start #}
+<section class="banner">
+</section>
+<p>{# Slider End #}</p>";s:4:"code";N;s:11:"description";s:14:"Banner Partial";s:7:"viewBag";a:2:{s:11:"snippetCode";s:10:"homebanner";s:11:"snippetName";s:10:"homebanner";}}}

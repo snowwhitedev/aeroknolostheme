@@ -1,8 +1,10 @@
-;;
 description = "Header with TopBar and Navigation"
+[viewBag]
+
+[staticMenu main]
+code = "main"
 ==
-{##}
-{# Header Start #}
+{##} {# Header Start #}
 <header class="navigation">
 	
 	<nav class="navbar navbar-expand-lg  py-4" id="navbar">
@@ -16,22 +18,9 @@ description = "Header with TopBar and Navigation"
 		  </button>
 	  
 		  <div class="collapse navbar-collapse text-center" id="navbarsExample09">
-			<ul class="navbar-nav ml-auto">
-			  <li class="nav-item active">
-				<a class="nav-link" href="{{ 'home'|page }}">Home <span class="sr-only">(current)</span></a>
-			  </li>
-			  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="{{ 'about'|page }}">Our company</a></li>
-						<li><a class="dropdown-item" href="{{ 'pricing'|page }}">Pricing</a></li>
-					</ul>
-			  </li>
-			   <li class="nav-item"><a class="nav-link" href="{{ 'services'|page }}">Services</a></li>
-			   <li class="nav-item"><a class="nav-link" href="{{ 'portfolio'|page }}">Portfolio</a></li>
-				 <li class="nav-item"><a class="nav-link" href="{{ 'blog'|page }}">Blog</a></li>
-			   <li class="nav-item"><a class="nav-link" href="{{ 'contact-us'|page }}">Contact</a></li>
-			</ul>
+		  	
+		  	{% partial 'site/navbar-items' items=main.menuItems %}
+			
 
 			<form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
 			  <a href="{{ 'contact-us'|page }}" class="btn btn-solid-border btn-round-full color-one"><strong>Get a Quote</strong></a>
@@ -40,4 +29,5 @@ description = "Header with TopBar and Navigation"
 		</div>
 	</nav>
 </header>
-{# Header Close #}
+
+<p>{# Header Close #}</p>

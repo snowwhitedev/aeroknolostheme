@@ -1,5 +1,5 @@
 title = "Blog Articles"
-url = "/blog/:page?"
+url = "/blog_old/:page?"
 layout = "blog-layout"
 description = "The main blog page, with all posts."
 meta_title = "The latest announcements from us"
@@ -26,9 +26,6 @@ function onStart()
 ?>
 ==
 <section class="section blog-wrap bg-gray">
-    <div class="container">
-        <div class="row">
-            {% partial 'blog/posts' %}
-        </div>
-    </div>
+	<div class="container">
+		<div class="row">{% partial 'blog/posts' %}</div></div>
 </section>

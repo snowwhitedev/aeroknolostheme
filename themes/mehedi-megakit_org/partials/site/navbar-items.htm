@@ -1,0 +1,17 @@
+[viewBag]
+==
+<ul class="navbar-nav ml-auto">
+  {% for item in items %}  
+      <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="{{ item.url }}">{{item.title}}</a>
+        {% if item.items %}
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                {% for subitem in item.items%}
+                    <li><a class="dropdown-item" href="{{ 'about'|page }}">{{subitem.title}}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+       </li>
+  {%endfor%}
+</ul>

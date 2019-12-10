@@ -1,0 +1,38 @@
+1576015376a:1:{s:29:"site/blogsinglepostheader.htm";a:6:{s:8:"fileName";s:29:"site/blogsinglepostheader.htm";s:7:"content";s:830:";;
+description = "Blog Single Post Header"
+==
+{##}
+<section class="page-title bg-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block text-center">
+                    <span class="text-white">News details</span>
+                    <h1 class="text-capitalize mb-4 text-lg">Blog Single</h1>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="{{ 'home'|page }}" class="text-white">Home</a></li>
+                        <li class="list-inline-item"><span class="text-white">/</span></li>
+                        <li class="list-inline-item"><a href="#" class="text-white-50">News details</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:5:"mtime";i:1559615890;s:6:"markup";s:784:"{##}
+<section class="page-title bg-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block text-center">
+                    <span class="text-white">News details</span>
+                    <h1 class="text-capitalize mb-4 text-lg">Blog Single</h1>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="{{ 'home'|page }}" class="text-white">Home</a></li>
+                        <li class="list-inline-item"><span class="text-white">/</span></li>
+                        <li class="list-inline-item"><a href="#" class="text-white-50">News details</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>";s:4:"code";N;s:11:"description";s:23:"Blog Single Post Header";}}

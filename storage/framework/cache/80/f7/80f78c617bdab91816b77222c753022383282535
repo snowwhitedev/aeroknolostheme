@@ -1,0 +1,237 @@
+1576015724a:1:{s:9:"event.htm";a:9:{s:8:"fileName";s:9:"event.htm";s:7:"content";s:4800:"title = "Event"
+url = "/event"
+layout = "cms-layout"
+is_hidden = 0
+==
+<!-- Section About Start -->
+<section class="section about-2 position-relative">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div class="about-item-img">
+					<img src="/storage/app/media/event.jpg" alt="" class="img-fluid fr-fic fr-dii"></div>
+				</div>
+			<div class="col-lg-6 col-md-6 d-flex align-items-center">
+				<div class="about-item pr-3 mb-5 mb-lg-0">
+
+					<h3 class="mt-3 mb-4 position-relative text-center text-color">Between October 10 and 20, 2019 we are at Bucharest Auto Show - ROMEXPO</h3>
+
+					<p class="mb-5 text-center text-black">for more information: <a href="https://www.sab.ro/" target="_blank">SAB</a></p>
+				</div></div></div></div>
+</section>
+<!-- Section About End -->
+<!-- Section About Video Start -->
+<section class="about-video">
+	<div class="container">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PsyL_CVsQIQ"></iframe>
+		</div></div>
+</section>
+<!-- Section About Video End -->
+<!-- Section Blog with video Start -->
+<section class="section about-2 position-relative">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 d-flex align-items-center">
+				<div class="video-blog-text" style="width: 100%;">
+
+					<h1 class="mt-3 mb-4 position-relative text-color"><strong>EV 2019</strong></h1>
+
+					<p class="text-right text-black">Between October 3-4, 2019 was held in Bucharest</p>
+
+					<p class="text-right"><a href="http://aver.ro/?event=evshowro&amp;event_date=2019-10-03&amp;fbclid=IwAR3WitYAr3NKhoxIaf5RHu-5t1ETQeko3ou5M3mDyk-udxNRgcMIn4ETrD0" target="_blank">"Electric Vehicle International Conference &amp; Show"</a></p>
+				</div></div>
+			<div class="col-lg-6 col-md-6">
+				<div class="container">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gFOvjpZalgQ"></iframe>
+					</div></div></div></div></div>
+</section>
+<!-- Section Blog with video End -->
+<!-- Section Cert Image start -->
+<section class="cert-image">
+	<div class="container"><img src="{{'/storage/app/media/cert_image.jpg'}}" style="width: 100%;" class="fr-fic fr-dib"></div>
+</section>
+<!-- Section Cert Image End -->
+<!--  Section forum Start -->
+<section class="section portfolio pb-0">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<h4 class="mt-3 text-color">AERO bases were laid at the Bran meeting where friends were connected and I understood that together we have a much stronger voice.</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row portfolio-gallery">
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="{{'/storage/app/media/forum1.jpg'}}" class="popup-gallery">
+						<img src="{{'/storage/app/media/forum1.jpg'}}" alt="" class="img-fluid w-100">
+
+						<i class="ti-plus overlay-item"></i>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Project california</h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="{{'/storage/app/media/forum2.jpg'}}" class="popup-gallery">
+						<img src="{{'/storage/app/media/forum2.jpg'}}" alt="" class="img-fluid w-100">
+
+						<i class="ti-plus overlay-item"></i>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Project california</h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="{{'/storage/app/media/forum3.jpg'}}" class="popup-gallery">
+						<img src="{{'/storage/app/media/forum3.jpg'}}" alt="" class="img-fluid w-100">
+
+						<i class="ti-plus overlay-item"></i>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Project california</h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+						
+		</div>
+	</div>
+</section>
+<!--  Section Services End -->
+<!-- Section About Video Start -->
+<section class="about-video">
+	<div class="container">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pYs2u6Uw9oU"></iframe>
+		</div></div>
+</section>
+<!-- Section About Video End -->
+";s:5:"mtime";i:1576015119;s:6:"markup";s:4723:"<!-- Section About Start -->
+<section class="section about-2 position-relative">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div class="about-item-img">
+					<img src="/storage/app/media/event.jpg" alt="" class="img-fluid fr-fic fr-dii"></div>
+				</div>
+			<div class="col-lg-6 col-md-6 d-flex align-items-center">
+				<div class="about-item pr-3 mb-5 mb-lg-0">
+
+					<h3 class="mt-3 mb-4 position-relative text-center text-color">Between October 10 and 20, 2019 we are at Bucharest Auto Show - ROMEXPO</h3>
+
+					<p class="mb-5 text-center text-black">for more information: <a href="https://www.sab.ro/" target="_blank">SAB</a></p>
+				</div></div></div></div>
+</section>
+<!-- Section About End -->
+<!-- Section About Video Start -->
+<section class="about-video">
+	<div class="container">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PsyL_CVsQIQ"></iframe>
+		</div></div>
+</section>
+<!-- Section About Video End -->
+<!-- Section Blog with video Start -->
+<section class="section about-2 position-relative">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 d-flex align-items-center">
+				<div class="video-blog-text" style="width: 100%;">
+
+					<h1 class="mt-3 mb-4 position-relative text-color"><strong>EV 2019</strong></h1>
+
+					<p class="text-right text-black">Between October 3-4, 2019 was held in Bucharest</p>
+
+					<p class="text-right"><a href="http://aver.ro/?event=evshowro&amp;event_date=2019-10-03&amp;fbclid=IwAR3WitYAr3NKhoxIaf5RHu-5t1ETQeko3ou5M3mDyk-udxNRgcMIn4ETrD0" target="_blank">"Electric Vehicle International Conference &amp; Show"</a></p>
+				</div></div>
+			<div class="col-lg-6 col-md-6">
+				<div class="container">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gFOvjpZalgQ"></iframe>
+					</div></div></div></div></div>
+</section>
+<!-- Section Blog with video End -->
+<!-- Section Cert Image start -->
+<section class="cert-image">
+	<div class="container"><img src="{{'/storage/app/media/cert_image.jpg'}}" style="width: 100%;" class="fr-fic fr-dib"></div>
+</section>
+<!-- Section Cert Image End -->
+<!--  Section forum Start -->
+<section class="section portfolio pb-0">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<h4 class="mt-3 text-color">AERO bases were laid at the Bran meeting where friends were connected and I understood that together we have a much stronger voice.</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row portfolio-gallery">
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="{{'/storage/app/media/forum1.jpg'}}" class="popup-gallery">
+						<img src="{{'/storage/app/media/forum1.jpg'}}" alt="" class="img-fluid w-100">
+
+						<i class="ti-plus overlay-item"></i>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Project california</h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="{{'/storage/app/media/forum2.jpg'}}" class="popup-gallery">
+						<img src="{{'/storage/app/media/forum2.jpg'}}" alt="" class="img-fluid w-100">
+
+						<i class="ti-plus overlay-item"></i>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Project california</h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="portflio-item position-relative mb-4">
+					<a href="{{'/storage/app/media/forum3.jpg'}}" class="popup-gallery">
+						<img src="{{'/storage/app/media/forum3.jpg'}}" alt="" class="img-fluid w-100">
+
+						<i class="ti-plus overlay-item"></i>
+						<div class="portfolio-item-content">
+							<h3 class="mb-0 text-white">Project california</h3>
+							<p class="text-white-50">Web Development</p>
+						</div>
+					</a>
+				</div>
+			</div>
+						
+		</div>
+	</div>
+</section>
+<!--  Section Services End -->
+<!-- Section About Video Start -->
+<section class="about-video">
+	<div class="container">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pYs2u6Uw9oU"></iframe>
+		</div></div>
+</section>
+<!-- Section About Video End -->";s:4:"code";N;s:5:"title";s:5:"Event";s:3:"url";s:6:"/event";s:6:"layout";s:10:"cms-layout";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,31 @@
+;;
+description = "Header with TopBar and Navigation"
+[viewBag]
+
+[staticMenu main]
+code = "main"
+==
+{##}
+{# Header Start #}
+<header class="navigation">
+	<nav class="navbar navbar-expand-lg" id="navbar">
+		<div class="container">
+		  <a class="navbar-brand" href="{{ 'home'|page }}">
+		  	<img src="{{'/assets/images/logo.png' | theme}}">
+		  </a>
+
+		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="fa fa-bars color-one"></span>
+		  </button>
+	  
+		  <div class="collapse navbar-collapse text-center" id="navbarsExample09">
+			
+			{% partial 'site/navbar-items' items=main.menuItems %}
+			<form class="form-lg-inline my-2 my-md-0 ml-lg-4 text-center">
+			  <a href="{{ 'contact-us'|page }}" class="btn btn-solid-border btn-round-full color-one"><strong>Get a Quote</strong></a>
+			</form>
+		  </div>
+		</div>
+	</nav>
+</header>
+{# Header Close #}
